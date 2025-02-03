@@ -1,0 +1,9 @@
+#8. Calcular el área y la circunferencia de un círculo.
+
+pi = 3.1416  
+radio = float(input("Ingresa el radio del círculo: "))  
+area = pi * radio ** 2  
+circu = pi * (2 * radio)  
+
+print(f"El área del círculo con radio {radio} es: {area:.2f}")
+print(f"La circunferencia del círculo con radio {radio} es: {circu:.2f}")
