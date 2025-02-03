@@ -1,2 +1,8 @@
-# 1. Escribir un programa que imprima ”Hola, Mundo”.
-print ("Hola, Mundo")
+# 2. Crear una calculadora simple que realice operaciones básicas
+v1= float ("Ingresa el primer número: ")
+v2= float ("Ingresa el segundo número: ")
+
+suma=v1+v2
+resta=v1-v2
+multiplicacion=v1*v2
+division=v1/v2

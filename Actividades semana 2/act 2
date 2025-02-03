@@ -1,0 +1,15 @@
+# 2. Crear una calculadora simple que realice operaciones básicas
+print ("Para realizar las cuatro operaciones básicas, siguien las siguientes indicaciones: ")
+v1= float(input ("Ingresa el primer número: "))
+v2= float (input ("Ingresa el segundo número: "))
+
+suma=v1+v2
+resta=v1-v2
+multiplicacion=v1*v2
+division=v1/v2
+
+print("La suma de de los números es:",suma)
+print("La resta de de los números es:",resta)
+print("La multiplicación de de los números es:",multiplicacion)
+print("La división de de los números es:",division)
+ 
