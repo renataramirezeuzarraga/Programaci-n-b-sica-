@@ -1,0 +1,15 @@
+#7. Determinar si un número es par, impar o múltiplo de otro.
+
+num=int(input("Ingresa un numéro entero: "))
+
+if num % 2 == 0:
+    print(f"El número {num} es un número par")
+else:
+    print(f"El número {num} es un número impar")
+print(f"El número {num} es divisible en: ")
+
+for i in range(1, num): 
+        if num % i == 0:  
+            print(f"{i} es un divisor de {num}")
+
+
