@@ -1,0 +1,18 @@
+#6. Calcular el interés compuesto dado un capital, tasa y tiempo
+
+def calcular_interes_compuesto(capin, intan, intpa, tiem):
+    # Calcular el monto final utilizando la fórmula de interés compuesto
+    A = capin * (1 + intan/intpa) ** (intpa * tiem)
+    return A
+
+# Pedir al usuario los datos
+capin = float(input("Ingrese el capital inicial: "))
+intan = float(input("Ingrese la tasa de interés anual en porcentaje: ")) /100 # Convertimos a decimal
+intpa = int(input("Ingrese el número de veces que se compone el interés por año: "))
+tiem = float(input("Ingrese el tiempo en años: "))
+
+# Calcular el monto final
+A = calcular_interes_compuesto(capin, intan, intpa, tiem)
+
+# Mostrar el resultado
+print(f"La cantidad final después de {tiem} años es: {A:.2f}")
