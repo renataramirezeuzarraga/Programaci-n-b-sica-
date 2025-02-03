@@ -1,0 +1,14 @@
+#5. Verificar si un número es primo.
+
+n=int (input("Ingresa un número: "))
+x=1
+y=0
+
+while x <= n:
+    if n % x==0:
+        y=y+1
+    x=x+1
+if y==2:
+    print("El número ", n, " es primo ")
+else :
+    print("El número ", n, " NO es primo ")

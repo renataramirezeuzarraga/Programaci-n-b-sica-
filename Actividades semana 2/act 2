@@ -8,7 +8,7 @@ resta=v1-v2
 multiplicacion=v1*v2
 division=v1/v2
 
-print("La suma de de los números "+ str(v1) + " y "+ str(v2) + " es:",suma)
+print("La suma de de los números "+ str(v1) + " y "+ str(v2) + "es:",suma)
 print("La resta de de los números "+ str(v1) + " y "+ str(v2) + " es:",resta)
 print("La multiplicación de de los números "+ str(v1) + " y "+ str(v2) + " es:",multiplicacion)
 print("La división de de los números "+ str(v1) + " y "+ str(v2) + " es:",division)
