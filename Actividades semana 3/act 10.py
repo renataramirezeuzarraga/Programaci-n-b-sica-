@@ -12,7 +12,7 @@ with open("archivo.txt", "r") as archivo:
 
 # Agregar más líneas al archivo (modo 'a' para añadir al final)
 with open("archivo.txt", "a") as archivo:
-    archivo.write("linea 3: podemos escribir aqui.\n")
+    archivo.write("\nlinea 3: podemos escribir aqui.\n")
     archivo.write("linea 4: podemos seguir escribiendo aqui.\n")
 
 # Imprimir lo nuevo que se escribió
